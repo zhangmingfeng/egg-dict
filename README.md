@@ -9,7 +9,7 @@ $ npm i --save egg-dict
 - `config.default.js`
 
 ```js
-// 相对app目录的路径
+// 相对app目录的路径，默认值dict
 exports.dict = {
   path: 'dict'
 };
