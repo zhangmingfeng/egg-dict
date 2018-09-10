@@ -1,0 +1,33 @@
+{
+  "author": "zhangmingfeng",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "egg data dictionary plugin",
+  "eggPlugin": {
+    "name": "dict"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "files": [
+    "app",
+    "config",
+    "agent.js",
+    "app.js"
+  ],
+  "keywords": [
+    "egg",
+    "egg-plugin",
+    "eggPlugin",
+    "dict",
+    "data",
+    "dictionary"
+  ],
+  "license": "MIT",
+  "name": "egg-dict",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangmingfeng/egg-dict.git"
+  },
+  "version": "1.0.1"
+}
