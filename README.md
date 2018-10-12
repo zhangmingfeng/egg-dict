@@ -44,11 +44,11 @@ console.log(this.ctx.dict.demo.demo.status);
 
 ```js
 // app/dict/demo/demo.js
-// 只为了说明可以使用app
-module.exports = (app)=>{
+// 只为了说明可以使用appInfo
+module.exports = (appInfo)=>{
     return {
         statusWithApp: {
-            appPath: app.baseDir
+            appPath: appInfo.baseDir
         }
     }
 }
